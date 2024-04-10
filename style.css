@@ -19,7 +19,6 @@ button {
     color: white;
     border-radius: 10px;
     box-shadow: grey;
-    position: absolute;
 }
 
 #sample {
@@ -33,6 +32,22 @@ button {
 }
 
 h1 {
-    margin-left: 50px;
-    margin-top: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+section {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
 
-<body>
-	<div id="sample">
+    <body>
+        <!-- <div id="sample">
 		Geeksforgeeks is best learning platform. fghjk
 	</div>
 	<br />
@@ -14,15 +15,86 @@
 	<br />
 	
 	<h1>Copied Text:</h1><br />
-	<textarea id="textbox"></textarea>
-	
-	<script>
-		function copyText() {
-	
-			/* Copy text into clipboard */
-			navigator.clipboard.writeText
-				("Geeksforgeeks is best learning platform.");
-		}
-	</script>
-</body>
+	<textarea id="textbox"></textarea> -->
+
+        <section>
+            <h1>
+                Cyberaanvallen veroorzaakten vorig jaar veel datalekken in ons
+                land
+            </h1>
+            <p>
+                De Autoriteit Persoonsgegevens (AP) heeft vorig jaar 25.694
+                meldingen van datalekken ontvangen die plaatsvonden bij
+                Nederlandse bedrijven en organisaties. Daardoor zijn de gegevens
+                van twintig miljoen mensen uitgelekt. Veel van die incidenten
+                werden veroorzaakt door cyberaanvallen.
+            </p>
+            <p>
+                Het bekendste datalek van 2023 werd veroorzaakt door een
+                cyberaanval op de softwareleverancier Nebu. Dat bedrijf maakt
+                software voor marktonderzoeksbureaus.
+            </p>
+            <p>
+                Door de digitale inbraak bij Nebu zijn de gegevens van 2,5
+                miljoen mensen op straat komen te liggen. Het ging om de data
+                van klanten van bijvoorbeeld de NS, VodafoneZiggo en Heineken.
+                Dat meldt de Autoriteit Persoonsgegevens woensdag in zijn
+                datalekkenrapportage over 2023.
+            </p>
+            <p>
+                Het onderzoek naar het datalek bij Nebu is nog niet afgerond,
+                laat de toezichthouder weten. Het is daardoor nog niet duidelijk
+                of de privacywaakhond de softwareontwikkelaar gaat bestraffen.
+            </p>
+            <p>
+                Afnemers van de software van Nebu klaagde vorig jaar over
+                ernstige nalatigheid bij de leverancier. Ze stapten zelfs naar
+                de rechter om informatie over het datalek te krijgen.
+            </p>
+
+            <h2>Datalekken vaak gebruikt voor phishing</h2>
+            <p>
+                Cybercriminelen gebruiken informatie uit datalekken onder andere
+                voor phishing. Ze sturen slachtoffers een mail of sms die
+                afkomstig lijkt te zijn van het bedrijf waar hun data zijn
+                gelekt. Vervolgens proberen ze daarmee bijvoorbeeld toegang te
+                krijgen tot jouw accounts, bankrekeningen of creditcard.
+            </p>
+            <p>
+                De AP ontving in 2023 in totaal 25.694 meldingen van datalekken.
+                Maar daar zit een dubbeltelling in. Door de cyberaanval op Nebu
+                zijn de klantgegevens van 190 bedrijven op straat komen te
+                liggen. Die hebben allemaal afzonderlijk melding gemaakt van
+                hetzelfde datalek.
+            </p>
+
+            <!-- <p id="p1">Hello, I'm TEXT 1 test</p>
+            <p id="p2">Hi, I'm the 2nd TEXT</p> -->
+
+            <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+            <button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+
+            <br /><br /><input
+                class="textBox"
+                type="text"
+                id
+                placeholder="Dont belive me?..TEST it here..;)" />
+        </section>
+
+        <script>
+            // function copyText() {
+
+            // 	/* Copy text into clipboard */
+            // 	navigator.clipboard.writeText
+            // 		("Geeksforgeeks is best learning platform.");
+            // }
+            function copyToClipboard(element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+            }
+        </script>
+    </body>
 </html>
