@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="sample">
+		Geeksforgeeks is best learning platform. fghjk
+	</div>
+	<br />
+	
+	<button onclick="copyText()">Copy</button>
+	<br />
+	
+	<h1>Copied Text:</h1><br />
+	<textarea id="textbox"></textarea>
+	
+	<script>
+		function copyText() {
+	
+			/* Copy text into clipboard */
+			navigator.clipboard.writeText
+				("Geeksforgeeks is best learning platform.");
+		}
+	</script>
+</body>
+</html>
