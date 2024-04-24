@@ -22,6 +22,7 @@ Bekijk de [wiki](https://github.com/JurienWaijenberg/hcd/wiki) voor het volledig
 2. Schakel de ontwikkelaarsmodus in door op de tuimelschakelaar naast de ontwikkelaarsmodus te klikken.
 3. Klik op de knop Uitgepakt laden en selecteer de extensiemap.
 
+![Visuele versterking uitleg](https://github.com/JurienWaijenberg/hcd/blob/995b2c4ae2f185e6384fe780ea96b54851f5dc31/images/extensions-page-e0d64d89a6acf_1920.png)
 
 Ta-da! De scroll extensie is succesvol geïnstalleerd.
 
