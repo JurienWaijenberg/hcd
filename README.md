@@ -19,7 +19,7 @@ Bekijk de [wiki](https://github.com/JurienWaijenberg/hcd/wiki) voor het volledig
 
 [Download](https://github.com/JurienWaijenberg/hcd/blob/fcf91d08935cd3ba0c4a5f9b6a91f6762e1726bb/scroll-extention.zip) de extention.
 
-Na het donwloaden dient het zip bestand uitgepakt worden om de extention te laten werken.
+Na het donwloaden dient het zip bestand uitgepakt te worden om de extention te laten werken.
 
 ## Extention instalatie guide
 
