@@ -2,6 +2,14 @@
 
 ## De opdracht
 
+Nicolette kan beperkt gebruik maken van haar ledematen. Ze gebruikt een rolstoel om zich te verplaatsen, en op haar computer maakt ze gebruik van spraaksoftware en een tekentablet in plaats van een muis. Dit maakt navigeren lastig omdat ze geen snelkoppelingen kan gebruiken. Nicolette houdt zich veel bezig met toegankelijkheid. Daarnaast organiseerd ze veel voor de buurt en voor andere vrijwilligers. Ze is geoloog van beroep geweest en bezoekt graag natuurkundige wonderen. Ook is ze gepassioneerd door de natuur.
+
+### Knippen en plakken zonder klikken
+
+Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website van de gemeente. Het is belangrijk om hier de juiste stukken uit te kunnen halen en door te kunnen sturen.
+
+Zonder rechtermuisknop of snelkoppeling is knippen en plakken bijna niet mogelijk. Ontwerp een manier om met spraak en tekentablet tekst te navigeren, selecteren, te knippen en te plakken.
+
 ## Wiki
 
 Bekijk de [wiki](https://github.com/JurienWaijenberg/hcd/wiki) voor het volledige procesverslag.
@@ -11,8 +19,11 @@ Bekijk de [wiki](https://github.com/JurienWaijenberg/hcd/wiki) voor het volledig
 
 [Download](https://github.com/JurienWaijenberg/hcd/blob/fcf91d08935cd3ba0c4a5f9b6a91f6762e1726bb/scroll-extention.zip) de extention.
 
+Na het donwloaden dient het zip bestand uitgepakt worden om de extention te laten werken.
 
-## Extention installeer guide
+## Extention instalatie guide
+
+Met de uitleg hieronder wordt de extensie lokaal ingeladen vanaf je eigen computer.
 
 ### De scroll extensie laden in ontwikkelaarsmodus:
 
